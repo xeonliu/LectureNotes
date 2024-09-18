@@ -1,0 +1,4 @@
+site_name: Lecture Notes
+site_url: https://xeonliu.github.io/LectureNotes
+theme:
+  name: material
