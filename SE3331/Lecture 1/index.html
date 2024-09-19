@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://xeonliu.github.io/LectureNotes/SE3308/Chapter%201/">
+        <link rel="canonical" href="https://xeonliu.github.io/LectureNotes/SE3331/Lecture%201/">
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../../SE3308/Preface%20%26%20Chapter%200/">
       
       
-        <link rel="next" href="../Introduction/">
+        <link rel="next" href="../../SE3355/Introduction/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Addition - Lecture Notes</title>
+        <title>Lecture 1 - Lecture Notes</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#addition" class="md-skip">
+        <a href="#correctness" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Addition
+              Lecture 1
             
           </span>
         </div>
@@ -212,19 +212,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -238,7 +236,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             SE3308
@@ -249,30 +247,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Addition
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../SE3308/Chapter%201/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -281,44 +259,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#algo-1-repeated-increments" class="md-nav__link">
-    <span class="md-ellipsis">
-      Algo 1: repeated increments
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#algo-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Algo 2 竖式相加
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -331,7 +271,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Introduction/" class="md-nav__link">
+      <a href="../../SE3308/Introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -352,7 +292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Preface%20%26%20Chapter%200/" class="md-nav__link">
+      <a href="../../SE3308/Preface%20%26%20Chapter%200/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -377,17 +317,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -401,7 +343,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             SE3331
@@ -412,10 +354,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../SE3331/Lecture%201/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Lecture 1
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -424,6 +384,174 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#correctness" class="md-nav__link">
+    <span class="md-ellipsis">
+      Correctness
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#latency" class="md-nav__link">
+    <span class="md-ellipsis">
+      Latency
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#throughput-capacity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Throughput / Capacity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scalability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scalability
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance-isolation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance Isolation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utilization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Utilization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energy-efficiently" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energy Efficiently
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compatibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compatibility
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usability
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consistency" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consistency
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fault-tolerance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fault Tolerance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#privacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Privacy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-complexity" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Complexity
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="System Complexity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#emergent-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Emergent Properties
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#propagation-of-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Propagation of Effects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -516,8 +644,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -526,20 +652,152 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#algo-1-repeated-increments" class="md-nav__link">
+  <a href="#correctness" class="md-nav__link">
     <span class="md-ellipsis">
-      Algo 1: repeated increments
+      Correctness
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#algo-2" class="md-nav__link">
+  <a href="#latency" class="md-nav__link">
     <span class="md-ellipsis">
-      Algo 2 竖式相加
+      Latency
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#throughput-capacity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Throughput / Capacity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scalability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scalability
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance-isolation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance Isolation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utilization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Utilization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energy-efficiently" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energy Efficiently
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compatibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compatibility
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usability
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consistency" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consistency
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fault-tolerance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fault Tolerance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#privacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Privacy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-complexity" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Complexity
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="System Complexity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#emergent-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Emergent Properties
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#propagation-of-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Propagation of Effects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -558,53 +816,74 @@
                   
 
 
-<h1 id="addition">Addition</h1>
-<h3 id="algo-1-repeated-increments">Algo 1: repeated increments</h3>
-<p>Start with x, and increment y times
-say x, y each have n digits</p>
-<ul>
-<li>increments &lt;= n steps（进位）</li>
-<li>y increments</li>
-</ul>
-<p>total steps: y * n &lt;= 10^n * n 约等于 10^n</p>
-<p>（y  at most 10^n）</p>
-<h3 id="algo-2">Algo 2 竖式相加</h3>
-<pre><code>456
-141 +
------
+<p>MIT
+OS &amp; 分布式</p>
+<p>ICS ：Fork 系统调用
+CSE：
+OS：深度</p>
+<p>Interactracting set odf components with a specified behavior at hte <em>interface</em> with its <em>environment</em></p>
+<p>Linux 驱动 56%
+2千万
+车 一个亿，接近老鼠基因组</p>
+<p>系统的14个属性</p>
+<h2 id="correctness">Correctness</h2>
+<p>已知就是Feature</p>
+<p>undefined behavior</p>
+<pre><code class="language-C">char* str;
+char* str_end;
+str + len &gt; str_end
 </code></pre>
-<p>大约n次（进位算是附加在两位运算之间的，对同一位置的两个数字，最后成为n的常数项）</p>
-<p><span class="arithmatex">\(f = \mathcal{O}(n)\)</span></p>
-<p>最优：</p>
+<h2 id="latency">Latency</h2>
+<p>很难优化，光速限制</p>
+<h2 id="throughput-capacity">Throughput / Capacity</h2>
+<p>A Number of transactions
+CPU越做越大，制程难以缩小</p>
+<h2 id="scalability">Scalability</h2>
+<p>随Core增加Lock耗时变多
+加人效率不一定增加</p>
+<p>CPU通信开销增大</p>
+<h2 id="performance-isolation">Performance Isolation</h2>
+<p>其他进程侵占性能
+Noisy Neighbor</p>
+<h2 id="utilization">Utilization</h2>
+<p>数据中心CPU利用率不高
+与Performance Isolation有冲突</p>
+<h2 id="energy-efficiently">Energy Efficiently</h2>
+<p>精确控制前后台调度，控制功耗</p>
+<h2 id="compatibility">Compatibility</h2>
+<p>兼容性</p>
+<p>Intel's Itanium, 64-bit, not compatible to x86, died.</p>
+<h2 id="usability">Usability</h2>
+<p>交互好不好用</p>
+<h2 id="consistency">Consistency</h2>
+<p>数据库变化要观测到</p>
+<h2 id="fault-tolerance">Fault Tolerance</h2>
+<p>系统容错性如何
+Cosmic Radiation</p>
+<p>DDR3，读取内存翻转</p>
+<h2 id="security">Security</h2>
+<p>偷密钥</p>
+<h2 id="privacy">Privacy</h2>
+<p>无痕浏览</p>
+<h1 id="system-complexity">System Complexity</h1>
+<h2 id="emergent-properties">Emergent Properties</h2>
+<p>突发的限制</p>
+<p>Ethernet的载波监听冲突检测</p>
 <ul>
-<li>
-<p>答案就有n位，至少n步</p>
-</li>
-<li>
-<p>输入就有2n位，肯定要读</p>
-</li>
+<li>同时发消息就取消</li>
+<li>最小的包要满足一定大小来确保检测对方是否冲突</li>
+<li>升级后，距离增加，导致需要padding</li>
 </ul>
-<p>反正，假设\&lt;=2n步，有的输入没有读。
-那么对不同的两个输入可能输出相同答案，不对。</p>
-<h1 id="multiplication">Multiplication</h1>
-<p>given x, y in base 10.return digits of <code>x*y</code> in base 10</p>
-<h3 id="algo-1-reapted-addition">Algo 1: Reapted addition</h3>
-<p>add x over and over, y times</p>
-<p>Steps of add * y = n 10^n</p>
-<h3 id="algo-2_1">Algo 2：竖式</h3>
-<p>n^2</p>
-<p><code>x*y</code> \&lt;= 2n digits？</p>
-<h3 id="algo-3-divide-and-conqure-recursion">Algo 3: Divide and Conqure (Recursion)</h3>
-<p>分而治之：例子Merge sort</p>
-<pre><code>x = 5 1 4 2
-y = 2 0 4 8 
-
-y_high = 2 0 y_low = 4 8
-</code></pre>
-<p>Recurrence Relation
-<span class="arithmatex">\(T(n)\)</span> are steps to mult two n-digit nums using Alg 3.</p>
-<div class="arithmatex">\[T(n)&lt;=  \]</div>
-<p><img alt="" src="../assets/Pasted%20image%2020240918232107.png" /></p>
+<h2 id="propagation-of-effects">Propagation of Effects</h2>
+<p>蝴蝶效应</p>
+<p>呼叫转移（Call Forwarding）</p>
+<p>CNDB隐藏电话（Call Number Delivery Blocking）</p>
+<p>ACB自动回拨（Automatic Callback）</p>
+<p>IB（列电话清单）</p>
+<ul>
+<li>循环的呼叫转移？</li>
+<li>隐藏电话的自动回拨，导致电话出现在清单上</li>
+</ul>
 
 
 

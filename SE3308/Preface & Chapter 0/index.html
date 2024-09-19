@@ -14,6 +14,8 @@
         <link rel="prev" href="../Introduction/">
       
       
+        <link rel="next" href="../../SE3331/Lecture%201/">
+      
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.35">
@@ -42,6 +44,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -195,7 +199,7 @@
         
   
   <span class="md-ellipsis">
-    Welcome to MkDocs
+    Lecture Notes on 2024 Fall
   </span>
   
 
@@ -360,6 +364,132 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    SE3331
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            SE3331
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SE3331/Lecture%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lecture 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    SE3355
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            SE3355
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SE3355/Introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -441,20 +571,20 @@
     if n=1: return 1
     return fib1(n-1) + fib1(n-2)
 </code></pre>
-<p>$$T(n) &lt;= 2$$
-for $n&lt;=1$</p>
+<p><span class="arithmatex">\(<span class="arithmatex">\(T(n) &lt;= 2\)</span>\)</span>
+for <span class="arithmatex">\(n&lt;=1\)</span></p>
 <ul>
 <li>2 recursive invocation</li>
 <li>2 checks</li>
 <li>1 addition
-$$T(n) = T(n-1) + T(n-2) + 3$$
-for $n&gt;1$</li>
+<span class="arithmatex">\(<span class="arithmatex">\(T(n) = T(n-1) + T(n-2) + 3\)</span>\)</span>
+for <span class="arithmatex">\(n&gt;1\)</span></li>
 </ul>
 <h1 id="big-o-notation">Big-O Notation</h1>
 <ul>
-<li>$f = \mathcal{O}(g)$: f grows no faster than g</li>
-<li>$f = \Omega(g)$ &lt;=&gt; $g = \mathcal{O}(f)$: f grows no slower than g</li>
-<li>$f = \Theta(g)$: $f = \mathcal{O}(g)$且$f=\Omega(g)$</li>
+<li><span class="arithmatex">\(f = \mathcal{O}(g)\)</span>: f grows no faster than g</li>
+<li><span class="arithmatex">\(f = \Omega(g)\)</span> &lt;=&gt; <span class="arithmatex">\(g = \mathcal{O}(f)\)</span>: f grows no slower than g</li>
+<li><span class="arithmatex">\(f = \Theta(g)\)</span>: <span class="arithmatex">\(f = \mathcal{O}(g)\)</span>且<span class="arithmatex">\(f=\Omega(g)\)</span></li>
 </ul>
 <blockquote>
 <p>Let f (n) and g(n) be functions from positive integers to positive reals. We say f = O(g) (which means that “ f grows no faster than g”) if there is a constant c &gt; 0 such that f (n) ≤ c · g(n)</p>
@@ -509,6 +639,12 @@ for $n&gt;1$</li>
     
     
       <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+        <script src="../../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
       
     
   </body>
