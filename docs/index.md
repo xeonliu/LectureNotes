@@ -1,6 +1,10 @@
-# Welcome to MkDocs
+# Lecture Notes on 2024 Fall
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Needs motivation.
+
+Have to write Notes.
+
+Looks better in _Obsidian_. Worse here.
 
 ## Commands
 
