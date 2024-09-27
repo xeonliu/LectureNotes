@@ -8,6 +8,8 @@
 
 ![](assets/Pasted%20image%2020240918150935.png)
 
+
+
 - Each phase is implemnted as software modules
 - Interfaces
   - Data Structures
@@ -17,14 +19,23 @@
     - Translate interface is a set of functions that the Semantic Analysis phase can call
     - Tokens interface takes the form of a function that the Parser calls to get the next token of the input program.
 
+## Front end
++ Recognize legal procedures
++ report errors
++ produce IR
++ Can be Automated
+`source code -> scan -(token)-> parse -> IR`
+
 ![](assets/Pasted%20image%2020240918151640.png)
 
 - Context-Free Grammar（文法）, for parsing
   - Yacc & Lex
   - converts a grammar into a parsing program
+  - Define Statements & Expressions
 - regular expressions, for lexical （词法）analysis
   - Lex & Flex
   - converts a declarative specification into a lexical analysis program
+  - Define Alphabet or Vocabulary
 
 # Data Structures for tree languages
 
